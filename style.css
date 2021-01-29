@@ -92,6 +92,11 @@ img {
 
   h3 {
     margin-bottom: 1%;
+    font-size: 2em;
+  }
+
+  h1 {
+    font-size: 3em;
   }
 
 /* sezione lezioni */
@@ -102,10 +107,12 @@ img {
 
   #lezioni .row > .left, #lezioni .row > .right {
     width: 50%;
+    padding: 0 5%;
   }
 
   #lezioni .row img {
-    height: 35vh;
+    height: 20vh;
+    width: auto;
     margin-top: 5%;
     text-align: center;
     display: inline-block;
@@ -117,6 +124,7 @@ img {
   #steps .row > .left,  #steps .row > .central, #steps .row > .right {
     width: 50%;
     text-align: center;
+    padding: 0 5%;
   }
 
   #steps .row > .right {
@@ -190,9 +198,9 @@ img {
   }
 
   #lezioni .row img {
-    width: auto;
+    width: 70%;
     margin-top: 5%;
-    height: 35vh;
+    height: auto;
     text-align: center;
     display: inline-block;
   }
