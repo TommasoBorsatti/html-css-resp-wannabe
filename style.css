@@ -76,10 +76,22 @@ img {
 
 @media screen and (max-width: 420px){
 
-  *{
+  * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+  }
+
+  .container {
+    padding: 4% 1vw;
+  }
+
+  hr {
+    margin: 3vh 1vw;
+  }
+
+  h3 {
+    margin-bottom: 1%;
   }
 
 /* sezione lezioni */
@@ -99,7 +111,6 @@ img {
     text-align: center;
     display: inline-block;
   }
-
 /* /sezione lezioni */
 
 /* sezione steps */
@@ -110,18 +121,27 @@ img {
   #steps h1{
     padding: 3% 0;
   }
+
   #steps .row img {
     margin: 5% 0;
-    width: 30%;
+    width: 40%;
     height: auto;
     text-align: center;
     display: inline-block;
-
-  }
-
-  .container{
-
-    padding: 3% 0;
   }
 /* /sezione steps   */
+
+/* sezione why */
+#why .row > .first, #why .row > .second, #why .row > .third  {
+    margin-top: 6%;
+  }
+
+  #why .row img {
+    width: 40%;
+    height: auto;
+    margin-bottom: 3%;
+    text-align: center;
+    display: inline-block;
+  }
+/* /sezione why */
 }
